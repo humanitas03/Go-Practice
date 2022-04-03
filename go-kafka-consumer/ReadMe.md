@@ -2,6 +2,19 @@
 ## Confluent-kafka-Go
 https://github.com/confluentinc/confluent-kafka-go
 
+## docker kafka 컨테이너에서 bash 실행하기
+
+* 터미널에서 아래 명령어 실행
+```bash
+docker ps
+```
+
+* ```confluentinc/cp-kafka:latest``` 이미지에 대한 Container ID값을 찾고 아래에 대입한다.
+```bash
+docker exec -it [container ID] /bin/bash
+```
+
+
 ## Kafka 관련 커맨드
 * Topic 조회
 ```bash
