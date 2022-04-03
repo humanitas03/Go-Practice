@@ -2,6 +2,12 @@
 ## Confluent-kafka-Go
 https://github.com/confluentinc/confluent-kafka-go
 
+## Kafka 컨테이너 띄우기
+```bash
+cd docker-kafka-single-node
+docker-compose up -d
+```
+
 ## docker kafka 컨테이너에서 bash 실행하기
 
 * 터미널에서 아래 명령어 실행
